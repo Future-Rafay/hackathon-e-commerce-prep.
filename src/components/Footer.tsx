@@ -86,14 +86,14 @@ const Footer = () => {
               }}
             ></div>
             <div className="flex flex-col gap-2">
-              <Link href="https://www.googleplay.com">
+              <Link href="https://www.googleplay.com" target="_blank">
                 <img
                   src="/images/play-app-store-android-label-logo.png"
                   alt="Google Play"
                   className="w-32"
                 />
               </Link>
-              <Link href="https://www.appstore.com">
+              <Link href="https://www.appstore.com" target="_blank">
                 <img
                   src="/images/download-appstore.png"
                   alt="App Store"
