@@ -5,6 +5,7 @@ import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import Category from "@/components/Category";
+import ThisMonth from "@/components/ThisMonth";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <HeroSection />
     <FeaturedProducts />
     <Category />
+    <ThisMonth />
     <Footer />
    </div>
     </>

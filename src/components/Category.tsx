@@ -149,7 +149,7 @@ const Category = () => {
 
                 </div>
             </div>
-            <div className=' w-[1170px] h-0 opacity-30 border-b-[0.5px] border-solid border-black transform rotate-180 mb-9 mx-auto' />
+            <div className=' w-[1170px] h-0 opacity-30 border-b-[0.5px] border-solid border-black transform rotate-180 mb-[70px] mx-auto' />
         </>
     )
 }

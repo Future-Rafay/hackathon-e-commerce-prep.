@@ -9,10 +9,10 @@ const ThisMonth = () => {
                 <div className='flex flex-row items-end justify-between gap-[87px] h-[108px] '>
                     <div className='flex flex-col items-start gap-[30px] '>
                         <div className='text-[#DB4444] font-poppins font-semibold text-[16px] leading-[20px] ml-9'>
-                            Categories
+                            This Month
                         </div>
                         <div className='text-[#000000] font-Inter font-semibold text-[34px] leading-[48px] tracking-wider'>
-                            Browse By Category
+                            Best Selling Products
                         </div>
                     </div>
                 </div>
