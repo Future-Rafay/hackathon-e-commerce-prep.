@@ -41,7 +41,7 @@ const Category = () => {
                 </div>
                 {/* option */}
                 <div className='flex gap-[30px]'>
-                    <div className='w-[170px] h-[145px] border-2 flex flex-col gap-4 items-center justify-center rounded'>
+                    <div className='w-[170px] h-[145px] border border-[#b2b2b2] flex flex-col gap-4 items-center justify-center rounded hover:border-[#DB4444] hover:bg-[#DB4444] hover:text-white'>
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_30802_868)">
                                 <path d="M38.9375 6.125H17.0625C15.5523 6.125 14.3281 7.34922 14.3281 8.85938V47.1406C14.3281 48.6508 15.5523 49.875 17.0625 49.875H38.9375C40.4477 49.875 41.6719 48.6508 41.6719 47.1406V8.85938C41.6719 7.34922 40.4477 6.125 38.9375 6.125Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -51,14 +51,13 @@ const Category = () => {
                             </g>
                             <defs>
                                 <clipPath id="clip0_30802_868">
-                                    <rect width="56" height="56" fill="white" />
+                                    <rect width="56" height="56" fill="black" />
                                 </clipPath>
                             </defs>
-                        </svg>
-
+                        </svg> 
                         Phones
                     </div>
-                    <div className='w-[170px] h-[145px] border-2 flex flex-col gap-4 items-center justify-center rounded'>
+                    <div className='w-[170px] h-[145px] border border-[#b2b2b2] flex flex-col gap-4 items-center justify-center rounded hover:border-[#DB4444] hover:bg-[#DB4444] hover:text-white'>
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_30802_613)">
                                 <path d="M46.6667 9.33337H9.33333C8.04467 9.33337 7 10.378 7 11.6667V35C7 36.2887 8.04467 37.3334 9.33333 37.3334H46.6667C47.9553 37.3334 49 36.2887 49 35V11.6667C49 10.378 47.9553 9.33337 46.6667 9.33337Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -76,7 +75,7 @@ const Category = () => {
 
                         Computers
                     </div>
-                    <div className='w-[170px] h-[145px] border-2 flex flex-col gap-4 items-center justify-center rounded'>
+                    <div className='w-[170px] h-[145px] border border-[#b2b2b2] flex flex-col gap-4 items-center justify-center rounded hover:border-[#DB4444] hover:bg-[#DB4444] hover:text-white'>
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_30802_629)">
                                 <path d="M35 14H21C17.134 14 14 17.134 14 21V35C14 38.866 17.134 42 21 42H35C38.866 42 42 38.866 42 35V21C42 17.134 38.866 14 35 14Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -112,7 +111,7 @@ const Category = () => {
 
                         Camera
                     </div>
-                    <div className='w-[170px] h-[145px] border-2 flex flex-col gap-4 items-center justify-center rounded'>
+                    <div className='w-[170px] h-[145px] border border-[#b2b2b2] flex flex-col gap-4 items-center justify-center rounded hover:border-[#DB4444] hover:bg-[#DB4444] hover:text-white'>
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_30802_644)">
                                 <path d="M16.3333 30.3334H14C11.4227 30.3334 9.33331 32.4227 9.33331 35V42C9.33331 44.5774 11.4227 46.6667 14 46.6667H16.3333C18.9106 46.6667 21 44.5774 21 42V35C21 32.4227 18.9106 30.3334 16.3333 30.3334Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -129,7 +128,7 @@ const Category = () => {
 
                         HeadPhones
                     </div>
-                    <div className='w-[170px] h-[145px] border-2 flex flex-col gap-4 items-center justify-center rounded'>
+                    <div className='w-[170px] h-[145px] border border-[#b2b2b2] flex flex-col gap-4 items-center justify-center rounded hover:border-[#DB4444] hover:bg-[#DB4444] hover:text-white'>
                         <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_30802_809)">
                                 <path d="M46.6666 14H9.33329C6.75596 14 4.66663 16.0893 4.66663 18.6667V37.3333C4.66663 39.9107 6.75596 42 9.33329 42H46.6666C49.244 42 51.3333 39.9107 51.3333 37.3333V18.6667C51.3333 16.0893 49.244 14 46.6666 14Z" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />

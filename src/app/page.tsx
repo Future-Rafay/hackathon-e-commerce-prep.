@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import Category from "@/components/Category";
 import ThisMonth from "@/components/ThisMonth";
+import ExploreProducts from "@/components/ExploreProducts";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
     <FeaturedProducts />
     <Category />
     <ThisMonth />
+    <ExploreProducts />
     <Footer />
    </div>
     </>

@@ -1,7 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import CardComponent from './ProductCard';
-import { Seperator } from './Seperator';
 
 const mockData = [
     {
