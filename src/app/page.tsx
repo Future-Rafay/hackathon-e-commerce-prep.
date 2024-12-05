@@ -4,6 +4,7 @@ import TopHeader from "@/components/TopHeader";
 import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 import FeaturedProducts from "@/components/FeaturedProducts";
+import Category from "@/components/Category";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <SeparatorVertical />
     <HeroSection />
     <FeaturedProducts />
+    <Category />
     <Footer />
    </div>
     </>

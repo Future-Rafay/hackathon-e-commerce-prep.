@@ -1,6 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import CardComponent from './ProductCard';
+import { Seperator } from './Seperator';
 
 const mockData = [
     {
@@ -91,7 +92,7 @@ const FeaturedProducts = () => {
     }, []);
 
     return (
-        <div className='mx-auto relative h-[600px] w-[1170px]'>
+        <div className='mx-auto relative h-[600px] w-[1170px] mb-36'>
             <div className='flex mb-10'>
                 <div className='absolute left-0 top-0 bg-[#DB4444] rounded w-5 h-10'></div>
 
@@ -189,10 +190,9 @@ const FeaturedProducts = () => {
                 <div id='featuredProductSwipe' className="w-[1305px] flex gap-[30px] overflow-x-auto"
                 >
                     <style>
-                        {` #featuredProductSwipe::-webkit-scrollbar {
-        display: none; /* For Chrome, Safari, and Edge */
-      }
-    `}
+                        {`#featuredProductSwipe::-webkit-scrollbar{ 
+                        display: none;
+                        }`}
                     </style>
                     {mockData.map((item, index) => (
                         <CardComponent
@@ -207,8 +207,13 @@ const FeaturedProducts = () => {
                     ))}
                 </div>
             </div>
+            <div className='h-[176px] flex items-center justify-center relative'>
+                <button className='flex items-center justify-center py-4 px-12 gap-[10px] bg-[#DB4444] rounded w-[234px] h-14 text-[16px] text-[#FAFAFA] mx-auto'>View All Products</button>
+                <div className='absolute w-[1170px] bottom-0 h-0 opacity-30 border-b-[0.5px] border-solid border-black transform rotate-180' />
+            </div>
         </div>
     );
 };
 
 export default FeaturedProducts;
+
