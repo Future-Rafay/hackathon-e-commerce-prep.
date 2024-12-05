@@ -1,7 +1,8 @@
 import Navbar from "@/components/Navbar";
-import Seperator from "@/components/Seperator";
+import {Seperator,  SeparatorVertical } from "@/components/Seperator";
 import TopHeader from "@/components/TopHeader";
-import HeroSection from "@/components/HeroSection/HeroSection";
+import HeroSection from "@/components/HeroSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,9 @@ export default function Home() {
    <div>
     <Navbar />
     <Seperator />
+    <SeparatorVertical />
     <HeroSection />
+    <Footer />
    </div>
     </>
   );
