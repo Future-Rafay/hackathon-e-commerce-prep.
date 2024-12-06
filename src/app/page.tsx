@@ -8,24 +8,26 @@ import ThisMonth from "@/components/BestSellingProduct";
 import ExploreProducts from "@/components/ExploreProducts";
 import NewArrival from "@/components/NewArrival";
 import Services from "@/components/Services";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
     <>
-   <div>
-   <TopHeader />
-   </div>
-   <div>
-    <Navbar />
-    <HeroSection />
-    <FeaturedProduct />
-    <Category />
-    <ThisMonth />
-    <ExploreProducts />
-    <NewArrival />
-    <Services />
-    <Footer />
-   </div>
+      <div>
+        <TopHeader />
+      </div>
+      <div>
+        <Navbar />
+        <HeroSection />
+        <FeaturedProduct />
+        <Category />
+        <ThisMonth />
+        <ExploreProducts />
+        <NewArrival />
+        <Services />
+        <BackToTop />
+        <Footer />
+      </div>
     </>
   );
 }
