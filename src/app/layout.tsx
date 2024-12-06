@@ -1,17 +1,19 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import TopHeader from "@/components/TopHeader";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Inter, Poppins } from 'next/font/google';
 
 
 const inter = Inter({
   subsets: ['latin'],
-  weight: ['400', '600'], 
+  weight: ['400', '600'],
 });
 
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '500', '600'], 
+  weight: ['400', '500', '600'],
 });
 
 export const metadata: Metadata = {
@@ -27,7 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${poppins.className}`}>
+        <TopHeader />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

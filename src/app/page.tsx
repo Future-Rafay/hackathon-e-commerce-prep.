@@ -1,7 +1,4 @@
-import Navbar from "@/components/Navbar";
-import TopHeader from "@/components/TopHeader";
 import HeroSection from "@/components/HeroSection";
-import Footer from "@/components/Footer";
 import FeaturedProduct from "@/components/FeaturedProduct";
 import Category from "@/components/Category";
 import ThisMonth from "@/components/BestSellingProduct";
@@ -14,10 +11,6 @@ export default function Home() {
   return (
     <>
       <div>
-        <TopHeader />
-      </div>
-      <div>
-        <Navbar />
         <HeroSection />
         <FeaturedProduct />
         <Category />
@@ -26,7 +19,6 @@ export default function Home() {
         <NewArrival />
         <Services />
         <BackToTop />
-        <Footer />
       </div>
     </>
   );
