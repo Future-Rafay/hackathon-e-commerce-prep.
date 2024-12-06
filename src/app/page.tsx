@@ -7,6 +7,7 @@ import Category from "@/components/Category";
 import ThisMonth from "@/components/BestSellingProduct";
 import ExploreProducts from "@/components/ExploreProducts";
 import NewArrival from "@/components/NewArrival";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <ThisMonth />
     <ExploreProducts />
     <NewArrival />
+    <Services />
     <Footer />
    </div>
     </>
