@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import CardComponent from './ProductCard';
+import CardComponent from './FeaturedProductCard';
 
 const mockData = [
     {

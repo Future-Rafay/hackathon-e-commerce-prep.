@@ -46,7 +46,7 @@ const HeroSection = () => {
           <span className="text-black text-center text-base font-normal">Health & Beauty</span>
         </div>
       </div>
-
+      <div className="absolute w-[384px] h-0 left-[40px] top-[191px] opacity-30 border-b-[0.5] border-black border-b-[0.5px] rotate-90"></div>
       {/* HERO RIGHT */}
       <div className="absolute w-[892px] h-[344px] left-[289px] top-[28px] bg-black overflow-hidden">
         {/* Hero Image */}

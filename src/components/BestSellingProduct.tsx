@@ -1,5 +1,5 @@
 import React from 'react'
-import BestSellingProducts from './BestSellingProducts'
+import BestSellingProducts from './BestSellingProductCard'
 
 
 const data = [
@@ -65,7 +65,6 @@ const ThisMonth = () => {
 
                     <div className='flex items-end justify-end'>
                         <button className='w-[159px] h-[56px] flex items-center justify-center bg-[#DB4444] text-white rounded'>View All</button>
-
                     </div>
                 </div>
                 <div className='flex gap-[30px] overflow-x-auto'>
